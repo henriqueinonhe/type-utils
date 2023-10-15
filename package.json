@@ -2,8 +2,30 @@
   "name": "type-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "main": "dist/index.js",
+  "keywords": [
+    "typescript",
+    "utilities",
+    "type",
+    "utils"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "author": {
+    "name": "Henrique Inonhe",
+    "email": "henriqueinonhe@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:henriqueinonhe/type-utils.git"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist"
+  ]
 }
