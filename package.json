@@ -9,7 +9,8 @@
     "utils"
   ],
   "scripts": {
-    "prepublishOnly": "tsc"
+    "test": "tsc --noEmit index.test.ts",
+    "prepublishOnly": "npm run test && tsc"
   },
   "author": "Henrique Inonhe <henriqueinonhe@gmail.com>",
   "license": "MIT",
